@@ -8,25 +8,26 @@ export default function ButtonGroup() {
     <div className="text-center bg-white">
         <Button
           type="button"
-          variant="secondary"
+          variant="primary"
           className="bannerButton"
           onClick={() => {
             navigate("/jobs");
           }}
         >
           Jobs
-        </Button>
+        </Button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         <Button
           type="button"
-          variant="secondary"
+          variant="primary"
           className="bannerButton"
           onClick={() => {
             navigate("/contact");
           }}
         >
           Contact Us
-        </Button>
-        <Button type="button" variant="secondary" className="bannerButton">
+        </Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <Button type="button" variant="primary" className="bannerButton">
           Coming Soon
         </Button>
       </div>

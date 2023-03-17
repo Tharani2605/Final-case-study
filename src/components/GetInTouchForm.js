@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from "react";
 import { Row, Col, Form, Button, Container } from "react-bootstrap";
-import contact_image from "../Images/contactUs.jpg";
+
 
 export default function GetInTouchForm() {
   const [formData, setFormData] = useState({
@@ -104,8 +104,8 @@ export default function GetInTouchForm() {
       )}
       <Container>
         <Row className=" py-3">
-          <Col md={6}>
-            <h3 className="text-center">Get In Touch</h3>
+          <Col >
+            <h3 className="text-center">Get In Touch Form</h3>
             <Form onSubmit={handleSubmit} className="contact-form">
               <Form.Group controlId="formBasicName">
                 <Form.Label className="label">Name</Form.Label>
@@ -181,11 +181,7 @@ export default function GetInTouchForm() {
 
             </Form>
           </Col>
-          <Col md={6}>
-            <br />
-            <br />
-            <img src={contact_image} alt="contact" className="contact-image" />
-          </Col>
+      
         </Row>
       </Container>
     </div>

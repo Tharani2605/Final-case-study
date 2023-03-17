@@ -2,7 +2,6 @@ import Home from "./pages/Home";
 import Jobs from "./components/Jobs";
 import Contact from "./pages/Contact";
 import Navigation from "./components/Navbar";
-import Footer from "./components/Footer";
 import ApplyJob from "./components/ApplyJob";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -17,7 +16,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/apply/:id" element={<ApplyJob />} />
         </Routes>
-        <Footer />
+        
       </BrowserRouter>
     </div>
   );

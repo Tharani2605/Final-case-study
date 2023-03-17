@@ -2,13 +2,7 @@
     height: 650px;
 } */
 
-.bannerButton {
-    width: 350px;
-    margin: 31px 0px !important;
-    height: 100px;
-    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0 100%);
-    color: white;
-}
+
 
 .singleCard {
     width: 60rem;

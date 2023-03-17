@@ -102,13 +102,12 @@ function ApplyJob() {
     <div>
       {submissionStatus === true && (
         <p className="border border-2 rounded bg-success text-white p-2">
-          <img src="https://img.icons8.com/flat-round/30/null/checkmark.png" />{" "}
-          Application submitted successfully!
+               Application submitted successfully!
         </p>
       )}
-      <h1 className="text-center"> Application Form</h1>
+      <h1 className="text-center"> User Aplication Form</h1>
       <h5 className="text-info text-center">
-        You are applying for Job ID: {id}
+      Job ID: {id}
       </h5>
       <Container>
         <div

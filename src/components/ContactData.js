@@ -14,6 +14,7 @@ export default function ContactData() {
   return (
     <Container className="text-center">
       <h3 className="py-3">Contact Us</h3>
+      
       {
         data.map((item,i)=>(
       <Card >

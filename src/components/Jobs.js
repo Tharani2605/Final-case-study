@@ -18,10 +18,16 @@ export default function Jobs() {
       });
   }, []);
   return (
+   
+   
+    
+
     <div className="container">
       <div class="row justify-content-md-center card-container">
         <div class="col-md-auto">
           <Container className="text-center">
+          
+
           {jobs.map((item, i) => {
             return (
               <Card className="singleCard m-3">
@@ -30,13 +36,12 @@ export default function Jobs() {
                   <Card.Subtitle className="mb-2 text-muted">
                     {item.company}
                   </Card.Subtitle>
-                  <Card.Text className="cardtxt">
-                    <img src="https://img.icons8.com/external-flaticons-flat-flat-icons/24/null/external-briefcase-private-investigator-flaticons-flat-flat-icons.png" />{" "}
-                    {item.experience}
-                    <img src="https://img.icons8.com/material-outlined/24/null/rupee.png" />
-                    {item.package}
-                    <img src="https://img.icons8.com/external-others-inmotus-design/40/null/external-Location-geo-others-inmotus-design-25.png" />
-                    {item.location}
+                  <Card.Text className="cardtxt">{" "}
+                  Experience: {item.experience}{" "}
+                    
+                   Package: {item.package}{" "}
+                    
+                    Location:{item.location}
                   </Card.Text>
                   <button className="btn btn-primary"
                   onClick={() => navigate(`/apply/${item.id}`)}

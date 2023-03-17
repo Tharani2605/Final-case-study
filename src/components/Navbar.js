@@ -6,16 +6,10 @@ import logo from "../Images/topjobs.png";
 
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
+    <Navbar collapseOnSelect expand="lg" bg="primary" variant="primary" sticky="top">
       <Container>
         <Navbar.Brand href="/">
-          <img
-            alt=""
-            src={logo}
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />{" "}
+       
           TopJobs
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
